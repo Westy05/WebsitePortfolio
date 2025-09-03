@@ -38,3 +38,8 @@ body {
   background-color: #000;
 }
 
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
