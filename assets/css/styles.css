@@ -19,6 +19,7 @@ body {
 .text-badge {
   padding: .1em .4em;
   background: var(--bs-dark);
+  border-radius: 1em;
 }
 
 .banner {
