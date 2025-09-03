@@ -13,17 +13,17 @@
 
 <body>
     <header>
-        <div data-bss-parallax-bg="true" style="height: 600px;background-image: url(&quot;assets/img/photo-1605379399642-870262d3d051.jpg&quot;);background-position: center;background-size: cover;">
+        <div data-bss-parallax-bg="true" style="height: 600px;background-image: url(&quot;assets/img/photo-1605379399642-870262d3d051.jpg&quot;);background-position: center;background-size: cover;z-index: 0;">
             <div class="container d-flex flex-column justify-content-end align-items-start">
                 <h1 class="display-3 fw-bold text-badge">Wesley Cordier</h1>
-                <p class="fs-2 text-info mb-5 text-badge">CS Undergrad, tech savvy problem solver, &amp; indie game dev</p>
+                <p class="fs-2 mb-5 text-badge" style="color: #ff0f00;">CS Undergrad, tech savvy problem solver, &amp; indie game dev</p>
             </div>
         </div>
     </header>
     <main>
         <section>
             <div class="container">
-                <p class="fs-4">From a young age, I've been fascinated by how technology can be used to help others and achieve the impossible. This passion has driven my journey through robotics, internships, and personal projects, shaping me into a person dedicated to the fields of Computer Science and programming.<br><br>As a proud member of FIRST Robotics Team 5171, I learned to apply my skills in real-world scenarios, culminating in our team's recognition as one of the six finalists at the 2023 Silicon Valley Regional. My passion for innovation extends beyond robotics, as seen in my exploration of AI and game development through personal projects.<br><br>From the platforms of Roblox to Amazon, I have worked on several projects including an AI powered investment advisor, a roleplaying video game, and a U.S. Navy project. In each of these I have learned the immense value of teamwork, passion, and perseverance. With these combined, I have been able to overcome any challenge that has come my way.<br><br>Now, as a Computer Science student at Santa Clara University, I'm dedicated to expanding my technical expertise and using it to make a meaningful impact in the world. My goal is to leverage my skills and ingenuity to build solutions that not only solve complex problems but also empower and assist others.</p>
+                <p class="fs-4">From a young age, I've been fascinated by how technology can be used to help others and achieve the impossible. This passion has driven my journey through robotics, internships, and personal projects, shaping me into a person dedicated to the fields of Computer Science and programming.<br><br>As a proud member of FIRST Robotics Team 5171, I learned to apply my skills in real-world scenarios, culminating in our team's recognition as one of the six finalists at the 2023 Silicon Valley Regional. My passion for innovation extends beyond robotics, as seen in my exploration of AI and game development through personal projects.<br><br>From the platforms of Roblox to Amazon, I have worked on several projects including an AI powered investment advisor, a roleplaying video game, and a U.S. Navy project. In each of these I have learned the immense value of teamwork, passion, and perseverance. With these combined, I have been able to overcome any challenge that has come my way.<br><br>Now, as an undergraduate Computer Science student at Santa Clara University, I'm dedicated to expanding my technical expertise and using it to make a meaningful impact in the world. My goal is to leverage my skills and ingenuity to build solutions that not only solve complex problems but also empower and assist others.</p>
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item"><a href="https://github.com/Westy05" style="color: rgb(255,255,255);" target="_blank"><i class="fab fa-github fs-1 me-2"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/wesley-c-659485280" style="color: rgb(255,255,255);" target="_blank"><i class="fab fa-linkedin fs-1 me-2"></i></a></li>
@@ -32,7 +32,7 @@
         </section>
         <section class="py-3">
             <div class="container">
-                <div class="banner">
+                <div class="banner" style="background: var(--bs-danger-text-emphasis);">
                     <p class="fs-1">I am actively <strong>searching</strong> for a job.</p><a class="btn btn-dark btn-lg text-uppercase fw-bold" role="button" href="mailto:wesley.cordier05@gmail.com">Contact me&nbsp;<i class="fas fa-chevron-circle-right"></i></a>
                 </div>
             </div>
@@ -73,8 +73,11 @@
             </div>
         </div>
     </footer>
+    <div id="tsparticles"></div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-stars@3/tsparticles.preset.stars.bundle.min.js"></script>
+    <script src="assets/js/particleSetup.js"></script>
 </body>
 
 </html>
